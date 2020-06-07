@@ -1,0 +1,10 @@
+.title-text{
+    color:white;
+    font-size: 4rem;
+}
+
+@media (max-width: 640px) {
+.title-text{
+    font-size: 2rem;
+}
+}

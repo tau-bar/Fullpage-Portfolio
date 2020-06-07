@@ -1,0 +1,26 @@
+.project-preview{
+    width: auto;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    border-radius: 10px;
+}
+
+img.static{
+    position:absolute;
+    background: white;
+    width: 250px;
+    transition: opacity 0.5s ease-in-out;
+
+ &:hover {
+     opacity:0;
+     transition: opacity 0.5s ease-in-out;
+   }
+}
+
+img.active{
+    width: 250px;
+}

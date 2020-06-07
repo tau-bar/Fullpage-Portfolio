@@ -1,0 +1,57 @@
+.skills-page-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 85vh;
+}
+
+div.projects-container{
+        width: 70vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+}
+
+@media (max-width: 640px){
+    div.projects-container{
+        flex-direction: column;
+    
+    }
+  }
+
+.skill-icon {
+    background-color: black;
+    padding: 5px;
+    border-radius: 10%;
+    margin-right: 1px;
+    margin-left: 1px;
+}
+
+ 
+// .tooltip {
+//     position: relative;
+//     display: inline-block;
+//     border-bottom: 1px dotted black;
+//   }
+  
+//   .tooltip .tooltiptext {
+//     visibility: hidden;
+//     width: 120px;
+//     background-color: black;
+//     color: #fff;
+//     text-align: center;
+//     border-radius: 6px;
+//     padding: 5px 0;
+    
+//     /* Position the tooltip */
+//     position: absolute;
+//     z-index: 1;
+//     top: -5px;
+//     left: 105%;
+//   }
+
+//   .tooltip:hover .tooltiptext {
+//     visibility: visible;
+//   }
