@@ -24,3 +24,14 @@ img.static{
 img.active{
     width: 250px;
 }
+
+
+@media (max-width: 640px) {
+    img.active{
+        width: 150px;
+    }
+
+    img.static{
+        width: 150px;
+    }
+}

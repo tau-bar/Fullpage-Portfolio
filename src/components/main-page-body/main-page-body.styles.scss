@@ -5,3 +5,8 @@
     align-items: center;
     height: 70vh;
 }
+
+@media (max-width: 640px) {
+    .main-page-body{
+        height: 60vh;}
+    }

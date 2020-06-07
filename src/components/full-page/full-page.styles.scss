@@ -5,16 +5,6 @@
     height: 15vh;
 }
 
-@media (max-width: 640px) {
-    .short-text { display: inline-block; }
-    .full-text { display: none; }
-
-    .page-button{
-        font-size: 1em;
-        padding: 0.5em, 0.5em;
-      }
-}
-
 .page-button{
     outline:0; 
     font-family: 'Inconsolata', monospace;
@@ -48,4 +38,15 @@
         cursor: pointer;
       }
   }
+
+
+@media (max-width: 640px) {
+  .short-text { display: inline-block; }
+  .full-text { display: none; }
+
+  .page-button{
+      font-size: 1em;
+      padding: 0.5em, 0.5em;
+    }
+}
  
