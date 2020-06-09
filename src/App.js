@@ -28,7 +28,7 @@ const App = () => (
             return null;
             }}/>
         <Route exact path='/trident' component={() => { 
-              window.location.href = 'https://tridentdigital.herokuapp.com'; 
+              window.location.href = 'https://tridentdigital.sg'; 
             return null;
             }}/>
         <Route exact path='/zulibakes' component={() => { 

@@ -7,7 +7,7 @@ import instagram from '@iconify/icons-cib/instagram';
 
 const InstagramButton = ({ children }) => {
     return (
-        <button className='instagram-button' href="https://github.com/tau-bar">
+        <button className='instagram-button'>
           <Icon icon={instagram} /> {children}
         </button>
       );

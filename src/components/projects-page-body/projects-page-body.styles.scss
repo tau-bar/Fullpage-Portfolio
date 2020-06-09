@@ -3,4 +3,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 85vh;}
+    height: 70vh;}
+
+
+
+@media (max-width: 640px) {
+    .projects-page-body{
+        height: 60vh;}
+    }
