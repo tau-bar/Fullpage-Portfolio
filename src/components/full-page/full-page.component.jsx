@@ -4,7 +4,7 @@ import MainPage from '../../pages/main-page/main-page.component';
 import AboutPage from '../../pages/about-page/about-page.component';
 import SkillsPage from '../../pages/skills-page/skills-page.component';
 import ProjectsPage from '../../pages/projects-page/projects-page.component';
-import './full-page.styles.scss'
+import NavContainer from '../nav-container/nav-container.component';
 
 
 
@@ -21,76 +21,28 @@ const Fullpage = () => (
     navigationTooltips={anchors}
 
 
-    render={({ state, fullpageApi }) => {
+    render={({ fullpageApi }) => {
       return (
         <div>
         <ReactFullpage.Wrapper>
           <div className="section">
-          <header class='nav-container'>
-          <button onClick={() => fullpageApi.moveTo(2, 0)} className='page-button'>
-              <span class="full-text">About Me </span>
-              <span class="short-text"><span role='img' aria-label='hello'>👨🏾‍💻</span></span>
-          </button>
-          <button onClick={() => fullpageApi.moveTo(3, 0)} className='page-button'>
-              <span class="full-text">Projects </span>
-              <span class="short-text"><span role='img' aria-label='hello'>💻</span></span>
-          </button>
-          <button onClick={() => fullpageApi.moveTo(4, 0)} className='page-button'>
-              <span class="full-text">Contact Me </span>
-              <span class="short-text"><span role='img' aria-label='hello'>🚀</span></span>   
-          </button>
-        </header>
+          <NavContainer fullpageApi={fullpageApi}>
+          </NavContainer>
             <MainPage />
           </div>
           <div className="section">
-          <header class='nav-container'>
-          <button onClick={() => fullpageApi.moveTo(1, 0)} className='page-button'>
-          <span class="full-text">Main </span>
-              <span class="short-text"><span role='img' aria-label='hello'>👋</span></span>
-          </button>
-          <button onClick={() => fullpageApi.moveTo(3, 0)} className='page-button'>
-              <span class="full-text">Projects </span>
-              <span class="short-text"><span role='img' aria-label='hello'>💻</span></span>
-          </button>
-          <button onClick={() => fullpageApi.moveTo(4, 0)} className='page-button'>
-              <span class="full-text">Contact Me </span>
-              <span class="short-text"><span role='img' aria-label='hello'>🚀</span></span>   
-          </button>
-        </header>
+          <NavContainer fullpageApi={fullpageApi}>
+          </NavContainer>
             <AboutPage/>
           </div>
           <div className="section">
-          <header class='nav-container'>
-          <button onClick={() => fullpageApi.moveTo(1, 0)} className='page-button'>
-          <span class="full-text">Main </span>
-              <span class="short-text"><span role='img' aria-label='hello'>👋</span></span>
-          </button>
-          <button onClick={() => fullpageApi.moveTo(2, 0)} className='page-button'>
-              <span class="full-text">About Me </span>
-              <span class="short-text"><span role='img' aria-label='hello'>👨🏾‍💻</span></span>
-          </button>
-          <button onClick={() => fullpageApi.moveTo(4, 0)} className='page-button'>
-              <span class="full-text">Contact Me </span>
-              <span class="short-text"><span role='img' aria-label='hello'>🚀</span></span>   
-          </button>
-        </header>  
-          <SkillsPage/>
+          <NavContainer fullpageApi={fullpageApi}>
+          </NavContainer>
+            <SkillsPage/>
           </div>
           <div className="section">
-          <header class='nav-container'>
-          <button onClick={() => fullpageApi.moveTo(1, 0)} className='page-button'>
-          <span class="full-text">Main </span>
-              <span class="short-text"><span role='img' aria-label='hello'>👋</span></span>
-          </button>
-          <button onClick={() => fullpageApi.moveTo(2, 0)} className='page-button'>
-              <span class="full-text">About Me </span>
-              <span class="short-text"><span role='img' aria-label='hello'>👨🏾‍💻</span></span>
-          </button>
-          <button onClick={() => fullpageApi.moveTo(3, 0)} className='page-button'>
-              <span class="full-text">Projects </span>
-              <span class="short-text"><span role='img' aria-label='hello'>💻</span></span>
-          </button>
-        </header>
+          <NavContainer fullpageApi={fullpageApi}>
+          </NavContainer>
             <ProjectsPage/>
           </div>
 
