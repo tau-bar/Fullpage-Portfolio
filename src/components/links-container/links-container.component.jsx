@@ -6,7 +6,7 @@ import DownloadButton from '../download-button/download-button.component';
 import { Link } from 'react-router-dom'
 
 const LinksContainer = () => (
-    <footer class='links-container'>
+    <footer className='links-container'>
         <Link to ='/github'><GitHubButton></GitHubButton></Link>      
         <Link to ='/portfolio'><DownloadButton>Portfolio</DownloadButton></Link>
         <Link to = '/linkedin'><LinkedinButton></LinkedinButton></Link>

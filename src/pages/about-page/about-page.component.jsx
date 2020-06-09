@@ -4,7 +4,7 @@ import AboutPageBody from '../../components/about-page-body/about-page-body.comp
 import SocialLinks from '../../components/social-links-container/social-links-container.component'
 
 const AboutPage = () => (
-    <div class='about-page'>
+    <div className='about-page'>
        <AboutPageBody/>
        <SocialLinks/>
     </div>

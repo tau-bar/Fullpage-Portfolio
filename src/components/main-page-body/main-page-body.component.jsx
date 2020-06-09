@@ -5,7 +5,7 @@ import Body from '../body/body.component';
 
 
 const MainPageBody = () => (
-    <div class='main-page-body'>
+    <div className='main-page-body'>
     <Title>
         Hi there, I'm Taufiq!<span role='img' aria-label='hello'>👋</span>
     </Title>

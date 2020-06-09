@@ -7,7 +7,7 @@ import TwitterButton from '../twitter-button/twitter-button.component';
 import { Link } from 'react-router-dom'
 
 const HybridContainer = () => (
-    <footer class='links-container'>
+    <footer className='links-container'>
         <Link to ='/github'><GitHubButton></GitHubButton></Link>      
         <Link to ='/linkedin'><LinkedinButton></LinkedinButton></Link>
         <Link to = '/instagram'><InstagramButton></InstagramButton></Link>

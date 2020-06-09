@@ -6,7 +6,7 @@ import HybridContainer from '../../components/hybrid-links-container/hybrid-link
 
 
 const ProjectsPage = () => (
-    <div class='main-page'>
+    <div className='main-page'>
         <ProjectsPageBody/>
         <HybridContainer/>
     </div>

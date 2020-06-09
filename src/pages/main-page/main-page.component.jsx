@@ -5,7 +5,7 @@ import MainPageBody from '../../components/main-page-body/main-page-body.compone
 import LinksContainer from '../../components/links-container/links-container.component';
 
 const MainPage = () => (
-    <div class='main-page'>
+    <div className='main-page'>
             <MainPageBody/>
         <LinksContainer/>
 

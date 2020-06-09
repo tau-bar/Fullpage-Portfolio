@@ -13,7 +13,7 @@ import zulibakespic from '../../assets/zulibakes.png';
 
 
 const SkillsPageBody = () => (
-    <div class='skills-page-body'>
+    <div className='skills-page-body'>
         <Title>
             My Skills and Projects <span role='img' aria-label='hello'>💻</span>
         </Title>

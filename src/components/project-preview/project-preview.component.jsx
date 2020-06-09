@@ -8,7 +8,7 @@ const ProjectPreview = ({ children, srcstatic, srcactive,linkto }) => (
         <img className='static' src={`${srcstatic}`} alt='project-preview' ></img>
         <img className='active' src={`${srcactive}`} alt='project-preview' ></img>
     </Link>
-        <p>{children}</p>
+        <span>{children}</span>
     </div>
 )
 

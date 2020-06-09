@@ -3,7 +3,7 @@ import './title.styles.scss';
 
 const Title = ({ children }) =>(
     <div>
-        <h1 class='title-text'>{children}</h1>
+        <h1 className='title-text'>{children}</h1>
     </div>
 )
 
