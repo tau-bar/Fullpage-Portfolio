@@ -1,15 +1,15 @@
 import React from 'react';
-import './github-button.styles.scss'
 import { Icon } from '@iconify/react';
 import github from '@iconify/icons-cib/github';
+import BaseButton from '../base-button/base-button.component';
 
 
 
-const GitHubButton = ({ children }) => {
+const GitHubButton = () => {
     return (
-        <button className='github-button' href="https://github.com/tau-bar">
-          <Icon icon={github} /> {children}
-        </button>
+        <BaseButton buttonType='github-button'>
+          <Icon icon={github} />
+        </BaseButton>
       );
 }
 

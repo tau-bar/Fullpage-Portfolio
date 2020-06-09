@@ -1,15 +1,15 @@
 import React from 'react';
-import './twitter-button.styles.scss'
 import { Icon } from '@iconify/react';
 import twitter from '@iconify/icons-cib/twitter';
+import BaseButton from '../base-button/base-button.component';
 
 
 
 const InstagramButton = ({ children }) => {
     return (
-        <button className='twitter-button' href="https://github.com/tau-bar">
-          <Icon icon={twitter} /> {children}
-        </button>
+        <BaseButton buttonType='twitter-button'>
+          <Icon icon={twitter} />
+        </BaseButton>
       );
 }
 

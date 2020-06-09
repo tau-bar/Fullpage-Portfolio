@@ -1,15 +1,15 @@
 import React from 'react';
-import './linkedin-button.styles.scss'
 import { Icon } from '@iconify/react';
 import linkedin from '@iconify/icons-cib/linkedin';
+import BaseButton from '../base-button/base-button.component';
 
 
 
-const LinkedinButton = ({ children }) => {
+const LinkedinButton = () => {
     return (
-        <button className='linkedin-button' href="https://github.com/tau-bar">
-          <Icon icon={linkedin} /> {children}
-        </button>
+        <BaseButton buttonType='linkedin-button'>
+          <Icon icon={linkedin} />
+        </BaseButton>
       );
 }
 

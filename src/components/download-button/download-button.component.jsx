@@ -1,16 +1,16 @@
 import React from 'react';
-import './download-button.styles.scss'
-import { Icon,  } from '@iconify/react';
+import { Icon  } from '@iconify/react';
 import downloadStudy from '@iconify/icons-carbon/download-study';
+import BaseButton from '../base-button/base-button.component';
 
 
 
 
-const DownloadButton = ({ children }) => {
+const DownloadButton = () => {
     return (
-      <button className='download-button' href="https://github.com/tau-bar">
-        <Icon icon={downloadStudy} /> {children}
-      </button>
+      <BaseButton buttonType='download-button'>
+        <Icon icon={downloadStudy} /> Portfolio
+      </BaseButton>
       );
 }
 

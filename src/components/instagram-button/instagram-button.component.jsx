@@ -1,15 +1,15 @@
 import React from 'react';
-import './instagram-button.styles.scss'
 import { Icon } from '@iconify/react';
 import instagram from '@iconify/icons-cib/instagram';
+import BaseButton from '../base-button/base-button.component';
 
 
 
-const InstagramButton = ({ children }) => {
+const InstagramButton = () => {
     return (
-        <button className='instagram-button'>
-          <Icon icon={instagram} /> {children}
-        </button>
+        <BaseButton buttonType='instagram-button'>
+          <Icon icon={instagram}/>
+        </BaseButton>
       );
 }
 

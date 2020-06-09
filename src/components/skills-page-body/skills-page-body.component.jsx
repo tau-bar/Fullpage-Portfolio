@@ -23,10 +23,6 @@ import zulibakes from '../../assets/zulibakes.gif';
 import zulibakespic from '../../assets/zulibakes.png';
 
 
-
-
-
-
 const SkillsPageBody = () => (
     <div class='skills-page-body'>
         <Title>
