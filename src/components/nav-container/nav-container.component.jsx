@@ -2,6 +2,7 @@ import React from 'react';
 import './nav-container.styles.scss';
 import NavButton from '../nav-button/nav-button.component';
 
+// change the number of navigation page buttons here
 
 const NavContainer = ({ fullpageApi }) => (
     <header className='nav-container'>

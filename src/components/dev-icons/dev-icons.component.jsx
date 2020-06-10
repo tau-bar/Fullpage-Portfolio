@@ -16,6 +16,7 @@ import sassIcon from '@iconify/icons-cib/sass';
 import bootstrapIcon from '@iconify/icons-logos/bootstrap';
 
 
+// add your own custom icons here!
 export const PythonIcon = () => (
     <div>
     <Icon data-tip="Python" className='skill-icon' icon={pythonIcon} />

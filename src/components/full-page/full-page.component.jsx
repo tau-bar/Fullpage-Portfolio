@@ -21,6 +21,7 @@ const Fullpage = () => (
     navigationTooltips={anchors}
 
 
+    // add more pages here
     render={({ fullpageApi }) => {
       return (
         <div>
