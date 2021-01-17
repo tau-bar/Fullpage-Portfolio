@@ -2,6 +2,10 @@
 
 You can use this repository by cloning the repository.
 
+# Updates
+
+17/1/2021 - Changed Trident Digital website (company has since changed their website) to OkaySports (hosted on Heroku).
+
 # Buttons
 
 The base styles for the buttons are in the base-button directory. There, you can change the basic styles for the buttons.
