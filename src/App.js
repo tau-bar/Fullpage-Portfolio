@@ -27,8 +27,8 @@ const App = () => (
               window.location.href = 'https://twitter.com/taubar_'; 
             return null;
             }}/>
-        <Route exact path='/trident' component={() => { 
-              window.location.href = 'https://tridentdigital.sg'; 
+        <Route exact path='/okaysports' component={() => { 
+              window.location.href = 'http://okaysports.herokuapp.com/'; 
             return null;
             }}/>
         <Route exact path='/zulibakes' component={() => { 

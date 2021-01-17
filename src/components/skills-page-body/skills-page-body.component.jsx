@@ -5,8 +5,8 @@ import Body from '../body/body.component'
 import ProjectPreview from '../project-preview/project-preview.component';
 import { PythonIcon,JavascriptIcon,DjangoIcon,ReactIcon,ReduxIcon,BootstrapIcon,SassIcon,HtmlIcon,CssIcon} from '../dev-icons/dev-icons.component'
 
-import trident from '../../assets/trident.gif';
-import tridentpic from '../../assets/trident.png';
+import okaysports from '../../assets/okaysports.gif';
+import okaysportspic from '../../assets/okaysports.png'
 import zulibakes from '../../assets/zulibakes.gif';
 import zulibakespic from '../../assets/zulibakes.png';
 
@@ -21,8 +21,8 @@ const SkillsPageBody = () => (
             Hover over any projects or icons!
         </Body>
         <div className='projects-container'>
-            <ProjectPreview linkto='/trident' srcstatic={tridentpic} srcactive={trident}>
-            Trident Digital Marketing<br/>    
+            <ProjectPreview linkto='/okaysports' srcstatic={okaysportspic} srcactive={okaysports}>
+            OkaySports<br/>    
                 <div className='skill-container'>
                     <PythonIcon/>
                     <DjangoIcon/> 

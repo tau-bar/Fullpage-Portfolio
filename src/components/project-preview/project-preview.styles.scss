@@ -13,6 +13,7 @@ img.static{
     position:absolute;
     background: white;
     width: 250px;
+    height: 156px;
     transition: opacity 0.5s ease-in-out;
 
  &:hover {
@@ -23,15 +24,18 @@ img.static{
 
 img.active{
     width: 250px;
+    height: 156px;
 }
 
 
 @media (max-width: 640px) {
     img.active{
         width: 150px;
+        height: 93.95px;
     }
 
     img.static{
         width: 150px;
+        height: 93.95px;
     }
 }
