@@ -16,7 +16,7 @@ const App = () => (
           return null;
           }}/>
         <Route exact path='/portfolio' component={() => { 
-            window.location.href = 'https://drive.google.com/file/d/1181-AOI9ZMZX_JvN2micZGQQQLsefBqY/view?usp=sharing'; 
+            window.location.href = 'https://drive.google.com/file/d/1oIwlNomU4CtPh5q2yaOWQQX7sMawEbGX/view?usp=sharing';
             return null;
             }}/>
         <Route exact path='/instagram' component={() => { 
