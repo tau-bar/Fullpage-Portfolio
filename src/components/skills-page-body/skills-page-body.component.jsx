@@ -33,7 +33,7 @@ const SkillsPageBody = () => (
                 </div>
             </ProjectPreview>
             <ProjectPreview linkto='/zulibakes' srcstatic={zulibakespic} srcactive={zulibakes}>
-            ZuliBakes Shop<br/>
+            ZuliBakes<br/>
             <div className='skill-container'>
                     <JavascriptIcon/>
                     <ReactIcon/>
