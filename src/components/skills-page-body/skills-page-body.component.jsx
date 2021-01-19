@@ -3,7 +3,7 @@ import './skills-page-body.styles.scss';
 import Title from '../title/title.component';
 import Body from '../body/body.component'
 import ProjectPreview from '../project-preview/project-preview.component';
-import { PythonIcon,JavascriptIcon,DjangoIcon,ReactIcon,ReduxIcon,BootstrapIcon,SassIcon,HtmlIcon,CssIcon} from '../dev-icons/dev-icons.component'
+import { PythonIcon,JavascriptIcon,DjangoIcon,ReactIcon,ReduxIcon,BootstrapIcon,SassIcon,HtmlIcon,CssIcon,FirebaseIcon} from '../dev-icons/dev-icons.component'
 
 import okaysports from '../../assets/okaysports.gif';
 import okaysportspic from '../../assets/okaysports.png'
@@ -24,23 +24,23 @@ const SkillsPageBody = () => (
             <ProjectPreview linkto='/okaysports' srcstatic={okaysportspic} srcactive={okaysports}>
             OkaySports<br/>    
                 <div className='skill-container'>
-                    <PythonIcon/>
-                    <DjangoIcon/> 
+                    <ReactIcon/>
+                    <ReduxIcon/>
                     <HtmlIcon/>
-                    <CssIcon/>
-                    <BootstrapIcon/>
+                    <SassIcon/>
                     <JavascriptIcon/>
+                    <FirebaseIcon/>
                 </div>
             </ProjectPreview>
             <ProjectPreview linkto='/zulibakes' srcstatic={zulibakespic} srcactive={zulibakes}>
             ZuliBakes<br/>
             <div className='skill-container'>
-                    <JavascriptIcon/>
                     <ReactIcon/>
-                    <ReduxIcon/>
-                    <SassIcon/>
+                    <ReduxIcon/> 
                     <HtmlIcon/>
-                    <CssIcon/>
+                    <SassIcon/>
+                    <JavascriptIcon/>
+                    <FirebaseIcon/>
                     </div>
             </ProjectPreview>
             </div>

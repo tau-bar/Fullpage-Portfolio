@@ -14,9 +14,17 @@ import html5Shield from '@iconify/icons-cib/html5-shield';
 import css3Shiled from '@iconify/icons-cib/css3-shiled';
 import sassIcon from '@iconify/icons-cib/sass';
 import bootstrapIcon from '@iconify/icons-logos/bootstrap';
+import firebaseIcon from '@iconify/icons-logos/firebase';
 
 
 // add your own custom icons here!
+export const FirebaseIcon = () => (
+    <div>
+    <Icon data-tip="Firebase" className='skill-icon' icon={firebaseIcon} />
+
+    </div>
+)
+
 export const PythonIcon = () => (
     <div>
     <Icon data-tip="Python" className='skill-icon' icon={pythonIcon} />
