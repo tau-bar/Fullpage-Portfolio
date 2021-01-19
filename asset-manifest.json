@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/fp-portfolio/static/css/main.f359d345.chunk.css",
-    "main.js": "/fp-portfolio/static/js/main.790978f0.chunk.js",
-    "main.js.map": "/fp-portfolio/static/js/main.790978f0.chunk.js.map",
+    "main.css": "/fp-portfolio/static/css/main.14ae4f3f.chunk.css",
+    "main.js": "/fp-portfolio/static/js/main.1b58e05f.chunk.js",
+    "main.js.map": "/fp-portfolio/static/js/main.1b58e05f.chunk.js.map",
     "runtime-main.js": "/fp-portfolio/static/js/runtime-main.20080668.js",
     "runtime-main.js.map": "/fp-portfolio/static/js/runtime-main.20080668.js.map",
-    "static/js/2.415a4de8.chunk.js": "/fp-portfolio/static/js/2.415a4de8.chunk.js",
-    "static/js/2.415a4de8.chunk.js.map": "/fp-portfolio/static/js/2.415a4de8.chunk.js.map",
+    "static/js/2.ab77fd62.chunk.js": "/fp-portfolio/static/js/2.ab77fd62.chunk.js",
+    "static/js/2.ab77fd62.chunk.js.map": "/fp-portfolio/static/js/2.ab77fd62.chunk.js.map",
     "index.html": "/fp-portfolio/index.html",
-    "precache-manifest.1301b3d4809ed46654339784fdd75526.js": "/fp-portfolio/precache-manifest.1301b3d4809ed46654339784fdd75526.js",
+    "precache-manifest.af88681ee65931cbdc886bf4531eae5c.js": "/fp-portfolio/precache-manifest.af88681ee65931cbdc886bf4531eae5c.js",
     "service-worker.js": "/fp-portfolio/service-worker.js",
-    "static/css/main.f359d345.chunk.css.map": "/fp-portfolio/static/css/main.f359d345.chunk.css.map",
-    "static/js/2.415a4de8.chunk.js.LICENSE.txt": "/fp-portfolio/static/js/2.415a4de8.chunk.js.LICENSE.txt",
-    "static/media/trident.png": "/fp-portfolio/static/media/trident.53b22735.png",
-    "static/media/trident.gif": "/fp-portfolio/static/media/trident.e4c1c9e1.gif",
+    "static/css/main.14ae4f3f.chunk.css.map": "/fp-portfolio/static/css/main.14ae4f3f.chunk.css.map",
+    "static/js/2.ab77fd62.chunk.js.LICENSE.txt": "/fp-portfolio/static/js/2.ab77fd62.chunk.js.LICENSE.txt",
+    "static/media/okaysports.gif": "/fp-portfolio/static/media/okaysports.a45d227f.gif",
+    "static/media/okaysports.png": "/fp-portfolio/static/media/okaysports.b6e53f4c.png",
     "static/media/zulibakes.png": "/fp-portfolio/static/media/zulibakes.1dae17d2.png",
     "static/media/zulibakes.gif": "/fp-portfolio/static/media/zulibakes.ac0a0846.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.20080668.js",
-    "static/js/2.415a4de8.chunk.js",
-    "static/css/main.f359d345.chunk.css",
-    "static/js/main.790978f0.chunk.js"
+    "static/js/2.ab77fd62.chunk.js",
+    "static/css/main.14ae4f3f.chunk.css",
+    "static/js/main.1b58e05f.chunk.js"
   ]
 }
